@@ -25,7 +25,12 @@ Start the Bot with:
 Or, if Process Manager installed:
 > pm2 server.js --name "albionbot"
 
-### Default Commands (Depending on `bot_prefix` in `config.json`)
+### Add Bot to Discord Server (Server Manager Permission required)
+
+Use this link with your application id to let the Bot join your Discord Server:
+> https://discordapp.com/oauth2/authorize?client_id=APPLICATION_ID&scope=bot
+
+### Default Commands (Depending on bot_prefix in config.json)
 
 * En-/Disable Forum (RSS) Notifications
 > !notify forum
