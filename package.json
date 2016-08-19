@@ -1,0 +1,34 @@
+{
+  "name": "albion-discordbot",
+  "version": "1.0.0",
+  "description": "Albion Online - Discord Bot",
+  "main": "albion-bot.js",
+  "dependencies": {
+    "discordie": "^0.8.0",
+    "feedparser": "^1.1.4",
+    "twit": "^2.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drdrjojo/albion-discordbot.git"
+  },
+  "keywords": [
+    "albion",
+    "online",
+    "discord",
+    "bot",
+    "twitter",
+    "forum",
+    "rss"
+  ],
+  "author": "Dr. Dr. Jojo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drdrjojo/albion-discordbot/issues"
+  },
+  "homepage": "https://github.com/drdrjojo/albion-discordbot#readme"
+}
