@@ -2,6 +2,8 @@
 
 > Notifications about News & Announcements, Developers Statements and Tweets for your own Discord Server.
 
+Test-Bot: https://discordapp.com/oauth2/authorize?client_id=216475148780437504&scope=bot
+
 ## Installation
 
 * Create Discord App & Bot ([Discord Application](https://discordapp.com/developers/applications/me))
