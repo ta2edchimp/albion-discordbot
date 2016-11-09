@@ -2,8 +2,6 @@
 
 > Notifications about News & Announcements, Developers Statements and Tweets for your own Discord Server.
 
-Test-Bot: https://discordapp.com/oauth2/authorize?client_id=216475148780437504&scope=bot
-
 ## Installation
 
 * Create Discord App & Bot ([Discord Application](https://discordapp.com/developers/applications/me))
@@ -25,7 +23,7 @@ Start the Bot with:
 > npm install
 
 Or, if Process Manager installed:
-> pm2 server.js --name "albionbot"
+> pm2 albion-bot.js
 
 ### Add Bot to Discord Server (Server Manager Permission required)
 
