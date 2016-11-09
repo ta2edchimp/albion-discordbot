@@ -1,14 +1,14 @@
 {
     "discord_token": "Bot Token (https://discordapp.com/developers/applications/me)",
     "bot_name": "AOBot",
-    "bot_prefix": "!notify ",
+    "bot_prefix": "?ao",
+    "discord_pw_key": "Token from https://bots.discord.pw/ (Optional)",
     "twitter" : {
         "follow_ids": [704522262],
         "consumer_key": "API Key (https://apps.twitter.com/)",
         "consumer_secret": "API Secret (https://apps.twitter.com/)",
         "access_token": "Access Token (https://apps.twitter.com/)",
         "access_token_secret": "Access Token Secret (https://apps.twitter.com/)",
-        "app_only_auth": true,
         "timeout_ms": 60000
     },
     "forum": {
@@ -16,6 +16,10 @@
             "https://forum.albiononline.com/index.php/BoardFeed/31/",
             "https://forum.albiononline.com/index.php/BoardFeed/42/"
         ],
+        "fetch_every_min": 1
+    },
+    "serverstatus": {
+        "url": "http://live.albiononline.com/status.txt",
         "fetch_every_min": 1
     }
 }
